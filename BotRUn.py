@@ -24,7 +24,7 @@ import yt_dlp
 intents = discord.Intents.default()
 intents.messages = True
 intents.message_content = True
-bot = commands.Bot(command_prefix="bfb!", intents=intents)
+bot = commands.Bot(command_prefix="yfb!", intents=intents)
 bot.owner_id = 917183936940113931  # Set the bot owner's ID
 
 # Directory for uploads
