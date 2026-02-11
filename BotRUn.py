@@ -39,8 +39,8 @@ async def on_ready():
     await bot.tree.sync()
     print(f'We have logged in as {bot.user}')
 
-    activity = discord.Activity(type=discord.ActivityType.listening, name="Weird AL Albuquerque")
-    await bot.change_presence(status=discord.Status.idle, activity=activity)
+    activity = discord.Activity(type=discord.ActivityType.listening, name="yfb!help")
+    await bot.change_presence(status=discord.Status.online, activity=activity)
 
 
 # FFMPEG command to process video
